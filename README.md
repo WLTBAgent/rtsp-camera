@@ -1,5 +1,7 @@
 # wltb-droidcam
 
+[![CI](https://github.com/WLTBAgent/rtsp-camera/actions/workflows/ci.yml/badge.svg)](https://github.com/WLTBAgent/rtsp-camera/actions/workflows/ci.yml)
+
 **RTSP Camera** — an Android app that turns your phone into a network camera. It captures the camera feed (CameraX), hardware-encodes it to H.264 with `MediaCodec`, and serves it over RTSP from the phone itself, so OBS Studio, VLC, or ffplay can connect directly — no root required. The app installs on your device as *RTSP Camera*.
 
 ```
