@@ -124,4 +124,4 @@ The `rtp/` and `rtsp/` protocol code is plain Kotlin with unit tests, including 
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE).
+GPL-2.0-only — see [LICENSE](LICENSE).
