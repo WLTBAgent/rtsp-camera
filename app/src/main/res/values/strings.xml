@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RTSP Camera</string>
+    <string name="camera_permission_required">Camera permission is required to stream.</string>
+    <string name="camera_init_failed">Camera failed to start: %1$s</string>
+    <string name="select_camera">Select camera</string>
+    <string name="select_resolution">Stream resolution</string>
+    <string name="lens_button">Lens</string>
+    <string name="switch_button">Switch</string>
+    <string name="torch_button">Torch</string>
+    <string name="res_button">Res</string>
+    <string name="stream_button">Stream</string>
+    <string name="stop_button">Stop</string>
+    <string name="stream_error">Stream error: %1$s</string>
+    <string name="audio_on">Audio: on</string>
+    <string name="audio_off">Audio: off</string>
+    <string name="advanced_button">More</string>
+    <string name="focus_label">Focus</string>
+    <string name="focus_auto">AF auto</string>
+    <string name="exposure_label">Exposure</string>
+    <string name="ae_lock">AE lock</string>
+    <string name="ae_unlock">AE unlock</string>
+    <string name="qr_button">QR</string>
+    <string name="qr_title">Scan to connect</string>
+    <string name="settings_button">Set</string>
+    <string name="settings_title">Streaming settings</string>
+    <string name="port_label">RTSP port</string>
+    <string name="fps_label">Frame rate (fps)</string>
+    <string name="bitrate_label">Bitrate (Mbps)</string>
+    <string name="save">Save</string>
+    <string name="settings_restart_note">Port and encoder settings apply to the next stream start.</string>
+    <string name="notif_channel">Streaming status</string>
+    <string name="notif_title">RTSP Camera</string>
+    <string name="notif_stop">Stop</string>
+</resources>
