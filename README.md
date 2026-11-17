@@ -1,4 +1,4 @@
-# wltb-droidcam
+# RTSP Camera
 
 [![CI](https://github.com/WLTBAgent/rtsp-camera/actions/workflows/ci.yml/badge.svg)](https://github.com/WLTBAgent/rtsp-camera/actions/workflows/ci.yml)
 
