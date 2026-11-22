@@ -22,7 +22,7 @@ OBS Media Source ── rtsp://<phone-ip>:8554/live
   - manual focus / macro focus distance slider (diopter-based; dedicated macro cameras are labeled in the picker)
   - exposure compensation, AE lock, torch
 - **Optional AAC audio track** from the microphone, toggleable mid-stream.
-- **Streaming survives backgrounding** — a foreground service owns the camera and server; notification with a stop action; wake lock held while streaming.
+- **Streaming survives backgrounding** — a foreground service owns the camera and server; notification with a stop action; wake lock held while streaming. The screen stays awake (no auto-lock) while the app is open and streaming.
 - **Easy OBS setup** — connect URL plus a scannable QR code.
 - Persisted settings (port, fps, bitrate, resolution, audio).
 

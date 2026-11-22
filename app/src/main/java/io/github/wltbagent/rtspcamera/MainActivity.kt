@@ -10,6 +10,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.IBinder
 import android.view.ScaleGestureDetector
+import android.view.WindowManager
 import android.widget.ImageView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -143,6 +144,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun renderState(state: StreamingService.StreamUiState) {
         val s = service ?: return
+        // Keep the screen awake while streaming so the preview and controls
+        // stay available; stopping resumes normal screen timeout behavior.
+        if (state.isStreaming) {
+            window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        } else {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        }
         binding.streamButton.text =
             getString(if (state.isStreaming) R.string.stop_button else R.string.stream_button)
         binding.statusText.text = when {
